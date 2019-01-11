@@ -18,15 +18,12 @@
 
         if (Terminal.platform.android) {
             var theUrl = 'http://sj.qq.com/myapp/detail.htm?apkName=com.dh.tsd';
-            document.write('下载安卓版本APP');
             location.href = theUrl;
         } else if (Terminal.platform.iPhone) {
             var theUrl = 'https://itunes.apple.com/cn/app/id1435003635?mt=8';
-            document.write('下载ipone版本APP');
             location.href = theUrl;
         } else if (Terminal.platform.iPad) {
             var theUrl = 'https://itunes.apple.com/cn/app/id1435003635?mt=8';
-            document.write('下载iPad版本APP');
             location.href = theUrl;
         } else {
             document.write('不支持此版本');
